@@ -5,7 +5,9 @@
   "projects": {
     "5b-streaming": {
       "projectType": "application",
-      "schematics": {},
+      "schematics": {
+        "styleext":"styled.scss"
+      },
       "root": "",
       "sourceRoot": "src",
       "prefix": "app",
