@@ -3,7 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Login</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="/src/assets/scripts/login.js"></script>
 </head>
 <body>
     <!-- Contenido de los Formularios -->
@@ -50,11 +52,11 @@
           <form id="form-login" method="post" onsubmit="return false;">
             <div class="form-element form-stack">
               <label for="username-login" class="form-label">Username</label>
-              <input id="username-login" type="text" name="username">
+              <input id="username-login" type="text" name="username" >
             </div>
             <div class="form-element form-stack">
               <label for="password-login" class="form-label">Password</label>
-              <input id="password-login" type="password" name="password">
+              <input id="password-login" type="password" name="password" >
             </div>
             <div class="form-element form-submit">
               <button id="logIn" class="login" type="submit" name="login">Log In</button>
